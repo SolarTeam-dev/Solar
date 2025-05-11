@@ -1,6 +1,13 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function HomePage() {
+  useEffect(() => {
+    console.log("Hello World ========");
+  }, []);
+
   return (
     <main className="flex flex-1 flex-col justify-center text-center">
       <h1 className="mb-4 text-2xl font-bold">Hello Solana World !!!</h1>

@@ -10,6 +10,7 @@ const config = {
     unoptimized: true,
   },
   basePath: '/Solar',
+  trailingSlash: true,
 };
 
 export default withMDX(config);
